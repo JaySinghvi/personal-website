@@ -32,12 +32,12 @@ const AlignTimeline = ({ align }) => (
 const About = () => {
   return (
     <div className='border-b border-neutral-900 pb-4 shadow-purple-900'>
-        <motion.h2 whileInView={{opacity:1, y:0}} initial={{opacity:0, y:-100}} transition={{duration:1.5}} className='my-20 text-center text-4xl'>Educational Highlights</motion.h2>
+        <motion.h2 whileInView={{opacity:1, y:0}} initial={{opacity:0, y:-100}} transition={{duration:1.5}} className='my-20 text-center text-xl'>Educational Highlights</motion.h2>
         <div className='justify-center shadow-purple-900'>
             <motion.div whileInView={{opacity:1, x:0}} initial={{opacity:0, x:100}} transition={{duration: 0.5}} className='w-full lg:w-1/2 shadow-purple-900'>
                     <Grid fluid>
                         <Row>
-                            <Col xs={24} sm={18} md={13} lg={21} className='text-2xl'>
+                            <Col xs={24} sm={18} md={13} lg={21} className='text-xl'>
                                 <AlignTimeline align="alternate" />
                             </Col>
                         </Row>

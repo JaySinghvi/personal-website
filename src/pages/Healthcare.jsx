@@ -7,7 +7,6 @@ import can from "../pg-imgs/health/cancer.png"
 const Healthcare = () => {
   return (
     < div className='border-b border-neutral-900 pb-4'>
-        <motion.h2 whileInView={{opacity:1, y:0}} initial={{opacity:0, y:-100}} transition={{duration:1.5}} className='my-20 text-center text-4xl'>Data Science in Healthcare</motion.h2>
         <div className='flex justify-center'>
           <div className='mb-8 flex lg:justify-center'>
             <motion.div whileInView={{opacity:1, y:0}} initial={{opacity:0, y:100}} transition={{duration:1}} className='w-full lg:w-1/4 flex justify-center items-center'>

@@ -5,7 +5,7 @@ import About from './components/About';
 import Technologies from './components/Technologies';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Finance from './pages/Finance';
 import Contact from './components/Contact';
 import Entertainment from './pages/Entertainment';
@@ -21,7 +21,7 @@ import { Analytics } from "@vercel/analytics/react"
 
 export const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <ScrollToTop />
       <div className='overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-900'>
         <div className='fixed top-0 -z-10 h-full w-full'>
@@ -43,7 +43,7 @@ export const App = () => {
           <Analytics />
         </div>
       </div>
-    </BrowserRouter>  
+    </HashRouter>  
   )
 }
 

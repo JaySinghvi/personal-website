@@ -17,6 +17,7 @@ import Sports from './pages/Sports'
 import Tech from './pages/Tech'
 import ScrollToTop from './components/ScrollToTop';
 import Publication from "./components/Publication"
+import { Analytics } from "@vercel/analytics/react"
 
 export const App = () => {
   return (
@@ -39,6 +40,7 @@ export const App = () => {
             <Route path="/sports" element={<Sports />} />
             <Route path="/tech" element={<Tech />} />
           </Routes>
+          <Analytics />
         </div>
       </div>
     </BrowserRouter>  

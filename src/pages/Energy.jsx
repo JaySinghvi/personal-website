@@ -6,7 +6,6 @@ import oil from "../pg-imgs/energy/oil.png"
 const Energy = () => {
   return (
     <div className='border-b border-neutral-900 pb-4'>
-        <motion.h2 whileInView={{opacity:1, y:0}} initial={{opacity:0, y:-100}} transition={{duration:1.5}} className='my-20 text-center text-4xl'>Data Science in Energy</motion.h2>
         <div className='flex justify-center'>
           <div className='mb-8 flex lg:justify-center'>
             <motion.div whileInView={{opacity:1, y:0}} initial={{opacity:0, y:100}} transition={{duration:1}} className='w-full lg:w-1/4 flex justify-center items-center'>
@@ -18,20 +17,19 @@ const Energy = () => {
                 whileTap={{ scale: 0.9 }} 
                 transition={{ type: "spring", stiffness: 400, damping: 17, duration: 1.5 }} 
                 className=" border-pink-500 bg-gradient-to-r from-pink-400 via-slate-200 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">
-                <a href="https://github.com/JaySinghvi/Energy-Consumption"><h6 className='mb-2 fon-semibold text-3xl pb-3'>Forecasting U.S. Power Demand with XGBoost and Time Series Analysis</h6></a>
+                <a href="https://github.com/JaySinghvi/Forecasting-Energy-Consumption-with-XGBoost"><h6 className='mb-2 fon-semibold text-3xl pb-3'><b>Forecasting Energy Consumption with XGBoost</b></h6></a>
               </motion.button>
               <ul className='list-disc pl-5 lg:justify-center text-2xl'>
-                <li className='mb-2'>Conducted time series forecasting on energy consumption in the United States using XGBoost for parallel tree boosting.</li>
-                <li className='mb-2'>Utilized data from PJM Interconnection LLC, a regional transmission organization, available on Kaggle, consisting of hourly power consumption data in megawatts.</li>
-                <li className='mb-2'>Preprocessed the data to remove outliers and ensure data quality.</li>
-                <li className='mb-2'>Trained the model using XGB Regressor for accurate time series forecasting, incorporating cross-validation techniques.</li>
-                <li className='mb-2'>Predicted future energy consumption patterns, demonstrating a high level of accuracy and consistency with historical data trends.</li>
+                <li className='mb-2'>Built an <b>XGBoost-powered</b> time series model to predict U.S. energy consumption with precision.</li>
+                <li className='mb-2'>Processed hourly power consumption data from <b>PJM Interconnection LLC</b>, ensuring comprehensive coverage of regional energy trends.</li>
+                <li className='mb-2'>Applied rigorous <b>data preprocessing</b> and <b>outlier removal</b>, followed by <b>cross-validation</b> to refine model accuracy.</li>
+                <li className='mb-2'>Generated reliable forecasts consistent with historical data, aiding in <b>energy planning</b> and decision-making.</li>
               </ul>
               <div className='flex flex-wrap justify-center'>
                 <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Time Series Forecasting</span>
                 <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Cross-Validation</span>
                 <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>XGBoost Regressor</span>
-                <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Data Preprocessing</span>
+                <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Energy Data Analysis</span>
               </div>            
             </motion.div>
           </div>
@@ -47,18 +45,16 @@ const Energy = () => {
                 whileTap={{ scale: 0.9 }} 
                 transition={{ type: "spring", stiffness: 400, damping: 17, duration: 1.5 }} 
                 className=" border-pink-500 bg-gradient-to-r from-pink-400 via-slate-200 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">
-                <a href="https://github.com/JaySinghvi/Oil-Production-Forecasting"><h6 className='mb-2 fon-semibold text-3xl pb-3'>Optimized Linear Regression for Oil Production Forecasting</h6></a>
+                <a href="https://github.com/JaySinghvi/Oil-Production-Forecasting-with-Linear-Regression"><h6 className='mb-2 fon-semibold text-3xl pb-3'><b>Oil Production Forecasting with Linear Regression</b></h6></a>
               </motion.button>
               <ul className='list-disc pl-5 lg:justify-center text-2xl'>
-                <li className='mb-2'>Preprocessed time-series data from the Volve field, addressing missing values and feature selection for model readiness.</li>
-                <li className='mb-2'>Employed data visualization to identify multicollinearity, enhancing feature selection and model robustness.</li>
-                <li className='mb-2'>Excluded highly correlated features to prevent data leakage and improve predictive accuracy.</li>
-                <li className='mb-2'>Built a linear regression model for oil production forecasting, utilizing data scaling and train-test splits.</li>
-                <li className='mb-2'>Evaluated model performance with relevant metrics to ensure reliability for real-world application.</li>
+                <li className='mb-2'>Refined <b>time-series</b> data from the Volve field by handling missing values and optimizing feature selection.</li>
+                <li className='mb-2'>Visualized <b>correlations</b>, excluding highly correlated features to improve model stability and prevent data leakage.</li>
+                <li className='mb-2'>Built a <b>linear regression</b> model for oil production forecasting, applying data scaling and <b>train-test</b> splits to ensure high accuracy and real-world applicability.</li>
               </ul>
               <div className='flex flex-wrap justify-center'>
-                <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Exploratory Data Analysis</span>
                 <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Time-Series Analysis</span>
+                <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Multicollinearity Analysis</span>
                 <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Data Visualization</span>
                 <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Linear Regression</span>
               </div>            

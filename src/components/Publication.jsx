@@ -19,16 +19,14 @@ const Publication = () => {
                             <a href="https://link.springer.com/chapter/10.1007/978-981-99-2264-2_17"><h2 className='mb-2 fon-semibold text-4xl pb-3'>Cyber Security and Layering of Medical Data Using Machine Learning Algorithms</h2></a>
                         </motion.button>
                         <ul className='mb-3 text-2xl list-disc pl-5 lg:justify-center '>
-                            <li className='mb-2'>Co-authored a paper with 3 peers under the mentorship of 2 professors, demonstrating the deployment of data layers on medical data, published in the book titled ”Applications and Techniques in Information Security” on Springer Link.</li>
-                            <li className='mb-2'>Developed a disease prediction model to present current and potential future trends of Chronic Hepatitis C and Diabetes.</li>
-                            <li className='mb-2'>Examined the accuracy of 7 machine learning algorithms: Logistic Regression, Decision Tree Classifier, Random Forest Classifier, K-Neighbors Classifier, Gradient Boosting Classifier, SVM, and Gaussian Naive Bayes Classifier.</li>
-                            <li className='mb-2'>Found the Gradient Boosting Classifier to be the most effective model, achieving 94.308% accuracy for predicting Hepatitis C, while additional patient data was required for Diabetes prediction.</li>
-                        
+                            <li className='mb-2'>Co-authored a research paper published in <b>Applications and Techniques in Information Security</b> on <b>Springer Link</b></li>
+                            <li className='mb-2'>Analyzed medical datasets for Hepatitis C and Diabetes from <b>1.5K+</b> patients, building and optimizing a disease prediction model using multiple machine learning methodologies like <b>Logistic Regression</b>, <b>SVM</b>, and <b>Gaussian Naive Bayes</b></li>
+                            <li className='mb-2'>Achieved <b>94.308%</b> accuracy with <b>Gradient Boosting Classifier</b> for Hepatitis C prediction, showcasing machine learning’s impact on medical cybersecurity and faster disease diagnosis for doctors</li>                      
                         </ul>
                         <div className='flex flex-wrap'>
                             <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Machine Learning</span>
-                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Statistical Accuracy</span>
-                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Collaborative Research</span>
+                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Medical Data Analysis</span>
+                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Statistical Analysis</span>
                             <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Model Evaluation</span>
                         </div>            
 

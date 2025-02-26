@@ -1,7 +1,6 @@
 import React from 'react'
 import {CONTACT} from "../constants"
 import { motion } from 'framer-motion'
-import { FaInstagram } from 'react-icons/fa6'
 
 const Contact = () => {
   return (

@@ -7,7 +7,6 @@ import { motion } from 'framer-motion';
 const Finance = () => {
   return (
     < div className='border-b border-neutral-900 pb-4'>
-        <motion.h2 whileInView={{opacity:1, y:0}} initial={{opacity:0, y:-100}} transition={{duration:1.5}} className='my-20 text-center text-4xl'>Data Science in Finance</motion.h2>
         <div className='flex justify-center'>
           <div className='mb-8 flex lg:justify-center'>
             <motion.div whileInView={{opacity:1, y:0}} initial={{opacity:0, y:100}} transition={{duration:1}} className='w-full lg:w-1/4 flex justify-center items-center'>
@@ -19,20 +18,19 @@ const Finance = () => {
                 whileTap={{ scale: 0.9 }} 
                 transition={{ type: "spring", stiffness: 400, damping: 17, duration: 1.5 }} 
                 className=" border-pink-500 bg-gradient-to-r from-pink-400 via-slate-200 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">
-                <a href="https://github.com/JaySinghvi/Analyzing-Credit-Risk-Using-Regression-Models"><h6 className='mb-2 fon-semibold text-3xl pb-3'>Analyzing Credit Risk Using Regression Models</h6></a>
+                <a href="https://github.com/JaySinghvi/Loan-Default-Prediction-Risk-Analysis"><h6 className='mb-2 fon-semibold text-3xl pb-3'><b>Loan Default Prediction & Risk Analysis</b></h6></a>
               </motion.button>
               <ul className='list-disc pl-5 lg:justify-center text-2xl'>
-                <li className='mb-2'>Collaborated with a peer to analyze the Kaggle Credit Risk Dataset using R, evaluating key predictors of loan defaults.</li>
-                <li className='mb-2'>Developed logistic regression and random forest models to forecast loan applicants likelihood of default and identify significant predictors</li>
-                <li className='mb-2'>Conducted a comprehensive analysis of debtors financial data and loan statuses to determine critical factors for creditor decision-making.</li>
-                <li className='mb-2'>Identified home ownership, reason for taking the loan, loan amount, interest rate, loan percent income, and credit history length as the most significant predictors of loan defaults.</li>
-                <li className='mb-2'>Discovered that having a prior default in ones credit history is a very weak predictor, with a p-value exceeding 0.8</li>
+                <li className='mb-2'>Analyzed credit risk data using <b>R</b>, identifying key predictors of loan defaults to enhance <b>risk assessment</b> models.</li>
+                <li className='mb-2'>Developed and optimized <b>logistic regression</b> and <b>random forest models</b>, accurately predicting default probabilities and key risk factors.</li>
+                <li className='mb-2'>Conducted <b>financial data analysis</b>, identifying home ownership, loan purpose, amount, interest rate, income percentage, and credit history length as top predictors of loan defaults.</li>
+                <li className='mb-2'>Discovered weak predictive power of prior defaults <b>(p-value {">"} 0.8)</b>, challenging traditional risk models and providing data-driven insights for creditor decision-making.</li>
               </ul>
               <div className='flex flex-wrap justify-center'>
                 <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>R</span>
                 <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Logistic Regression</span>
-                <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Financial Modeling</span>
-                <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Statistical Modeling</span>
+                <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Random Forest</span>
+                <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Financial Data Analysis</span>
                 <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Risk Management</span>
               </div>            
             </motion.div>
@@ -49,21 +47,20 @@ const Finance = () => {
                 whileTap={{ scale: 0.9 }} 
                 transition={{ type: "spring", stiffness: 400, damping: 17, duration: 1.5 }} 
                 className=" border-pink-500 bg-gradient-to-r from-pink-400 via-slate-200 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">
-                <a href="https://github.com/JaySinghvi/Financial-Analytics"><h6 className='mb-2 fon-semibold text-3xl pb-3'>Exploring Correlations in Major Financial Indices</h6></a>
+                <a href="https://github.com/JaySinghvi/Market-Correlation-Analysis-of-Global-Indices-Crypto"><h6 className='mb-2 fon-semibold text-3xl pb-3'><b>Market Correlation Analysis of Global Indices & Crypto</b></h6></a>
               </motion.button>
               <ul className='list-disc pl-5 lg:justify-center text-2xl'>
-                <li className='mb-2'>Utilized a comprehensive dataset from Kaggle, encompassing prices and volumes of BTC, NASDAQ, LSE, and NYSE from 2018 to 2023.</li>
-                <li className='mb-2'>Conducted data preprocessing to eliminate extraneous data and scaled the dataset to facilitate more effective decision-making, subsequently exporting the refined data as a CSV file.</li>
-                <li className='mb-2'>Employed auto-EDA tools like Sweetviz to generate detailed, high-density visualizations, producing an HTML file that thoroughly analyzed each variable.</li>
-                <li className='mb-2'>Applied heatmap analysis to examine variable correlations, uncovering a surprising high correlation between BTC and NASDAQ with a score of 0.9, and a significant correlation between LSE and NASDAQ.</li>
-                <li className='mb-2'>Delivered insightful financial analytics, aiding in the understanding of market dynamics and correlations across major financial indices.</li>
+                <li className='mb-2'>Analyzed a multi-market financial dataset (2018–2023), utilizing BTC, NASDAQ, LSE, and NYSE price and volume data to uncover key market trends.</li>
+                <li className='mb-2'>Preprocessed and scaled data, <b>eliminating noise</b> for enhanced decision-making, and exported the refined dataset as a structured CSV file.</li>
+                <li className='mb-2'>Automated <b>exploratory data analysis (EDA)</b> with <b>Sweetviz</b>, generating high-density visualizations in an <b>HTML report</b> for in-depth variable analysis.</li>
+                <li className='mb-2'>Applied <b>heatmap analysis</b>, revealing a <b>0.9</b> correlation between BTC and NASDAQ and a strong link between LSE and NASDAQ, offering data-driven insights into market dynamics.</li>
               </ul>
               <div className='flex flex-wrap justify-center'>
                 <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Python</span>  
-                <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Auto-EDA (Sweetviz Report)</span>
-                <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Correlation Analysis</span>
+                <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Auto-EDA (Sweetviz)</span>
+                <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Heatmap Analysis</span>
                 <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Financial Analytics</span>
-                <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Data Visualization</span>
+                <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Data Preprocessing</span>
               </div>            
             </motion.div>
           </div>
@@ -79,13 +76,13 @@ const Finance = () => {
                 whileTap={{ scale: 0.9 }} 
                 transition={{ type: "spring", stiffness: 400, damping: 17, duration: 1.5 }} 
                 className=" border-pink-500 bg-gradient-to-r from-pink-400 via-slate-200 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">
-                <a href="https://github.com/JaySinghvi/Stock-Market-Prediction"><h6 className='mb-2 fon-semibold text-3xl pb-3'>Stock Market Prediction</h6></a>
+                <a href="https://github.com/JaySinghvi/Stock-Market-Prediction"><h6 className='mb-2 fon-semibold text-3xl pb-3'><b>Stock Market Prediction</b></h6></a>
               </motion.button>
               <ul className='list-disc pl-5 lg:justify-center text-2xl'>
-                <li className='mb-2'>Executed data preprocessing techniques to address missing values and assembled a refined data frame with pertinent features for stock market prediction.</li>
-                <li className='mb-2'>Leveraged Sweetviz, an advanced auto-EDA tool, to generate a comprehensive HTML report detailing exploratory data analysis (EDA) insights.</li>
-                <li className='mb-2'>Engineered additional features based on EDA findings, including a predictive variable for next-day stock prices and a boolean target field to indicate whether the market opened higher than the previous day.</li>
-                <li className='mb-2'>Employed a Random Forest Classifier to discern complex, non-linear patterns in the stock market data, achieving a high degree of precision and accuracy in predictive modeling.</li>
+                <li className='mb-2'>Preprocessed stock market data, handling missing values, eliminating noise, and refining key features to enhance <b>prediction accuracy</b> and <b>model performance</b>.</li>
+                <li className='mb-2'>Automated EDA with Sweetviz, generating a comprehensive HTML report with detailed statistical insights, enabling data-driven <b>feature engineering</b>.</li>
+                <li className='mb-2'>Engineered predictive features, including a next-day stock price estimator and a boolean target for market trends, improving model interpretability and decision-making.</li>
+                <li className='mb-2'>Implemented a high-precision <b>Random Forest Classifier</b>, leveraging <b>feature importance analysis</b> to capture complex non-linear patterns and enhance stock trend predictions.</li>
               </ul>
               <div className='flex flex-wrap justify-center'>
                 <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Python</span>  

@@ -3,12 +3,11 @@ import project2 from "../assets/projects/tech.png";
 import project3 from "../assets/projects/news.png";
 import project4 from "../assets/projects/entertainment.png";
 
-export const HERO_CONTENT = `Greetings! My name is Jay Singhvi, and I am passionately pursuing a career in data science. My academic journey has been driven by a fascination
-                            with the power of data to uncover insights and drive decision-making. Additionally, I have a keen interest in 
-                            quantitative finance, a field that perfectly blends technology and finance. By combining the analytical rigor of
-                            data science with the strategic acumen of finance, I aim to harness the best of both worlds.`;
+export const HERO_CONTENT = `Hi, I'm Jay Singhvi, a tech enthusiast, passionate about solving complex problems at the intersection of AI, finance, and innovation. 
+                            With experience in artificial intelligence, machine learning, and full-stack development, I thrive on building data-driven solutions that drive real-world impact.
+                            Whether it's developing predictive models, optimizing marketing strategies, or creating AI-powered fintech products, I love turning ideas into scalable solutions. 
+                            Explore my projects, research, and insights as I continue pushing boundaries in technology and entrepreneurship!`;
 
-export const ABOUT_TEXT = `I have experience working with various machine learning models and visualization tools like Tableau and Power BI. I am proficient in Python, R, and SQL, and possess strong statistical knowledge. These experiences are evident in my projects, which cover a wide variety of industries, including finance, entertainment, aviation, and many more. These skills and experiences equip me to excel in the dynamic fields of data science and quantitative finance.Currently, I am also preparing for the Financial Risk Management Exam, furthering my expertise in finance and risk management. `;
 
 export const EXPERIENCES = [
   {
@@ -71,7 +70,5 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
   email: "jay.singhvi04@gmail.com",
 };

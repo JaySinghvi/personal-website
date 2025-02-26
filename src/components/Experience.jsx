@@ -8,7 +8,7 @@ const Experience = () => {
             <div className='flex justify-center'>
                 <div className='mb-8 flex lg:justify-center'>
                     <motion.div whileInView={{opacity:1, x:0}} initial={{opacity:0, x:-100}} transition={{duration:1}} className='w-full lg:w-1/4 justify-center items-center '>
-                        <p className='mb-2 text-violet-200 text-2xl'>July 2024</p>
+                        <p className='mb-2 text-violet-200 text-2xl'>May 2024 - August 2024</p>
                     </motion.div>
                     <motion.div whileInView={{opacity:1, x:0}} initial={{opacity:0, x:100}} transition={{duration:1}} className='w-full lg:pl-1/2 lg:w-3/4'>
                         <motion.button 
@@ -16,21 +16,18 @@ const Experience = () => {
                             whileTap={{ scale: 0.9 }} 
                             transition={{ type: "spring", stiffness: 400, damping: 17, duration: 1.5 }} 
                             className=" border-pink-500 bg-gradient-to-r from-pink-400 via-slate-200 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">
-                            <a href="https://github.com/JaySinghvi/Quantitative-Research"><h2 className='mb-2 fon-semibold text-4xl pb-3'>Quantitative Research Intern - <span className='text-2xl text-white'>JP Morgan Chase & Co.</span></h2></a>
+                            <a href="https://app.moonshotpirates.com/voting/climate-24?team=1715422576809x820019839363973100"><h2 className='mb-2 fon-semibold text-4xl pb-3'>Software Engineer - <span className='text-2xl text-white'>Moonshot Pirates</span></h2></a>
                         </motion.button>
                         <ul className='mb-3 text-2xl list-disc pl-5 lg:justify-center '>
-                            <li className='mb-2'>Successfully completed a comprehensive simulation designed to enhance quantitative research methods, focusing on real-world financial scenarios and data analysis.</li>
-                            <li className='mb-2'>Conducted in-depth analysis of a book of loans, employing statistical techniques to estimate customers' probability of default, contributing to risk management strategies.</li>
-                            <li className='mb-2'>Utilized dynamic programming to transform FICO scores into categorical data, improving the accuracy of predictive models for loan defaults.</li>
-                            <li className='mb-2'>Developed a logistic regression model to classify default risks, providing actionable insights for financial decision-making processes.</li>
-                            <li className='mb-2'>Gained practical experience with financial modeling, statistical analysis, and data-driven decision-making, enhancing my quantitative research skills.</li>
-                        
+                            <li className='mb-2'>Led the development of the <b>Django-based web app</b> to compete with <b>5000+</b> students globally in the Shape the Future hackathon, tackling disaster management solutions</li>
+                            <li className='mb-2'>Used <b>Python</b>, <b>SQL</b> and <b>Javascript</b> to enable real-time aid monitoring, team deployment, and resource management</li>
+                            <li className='mb-2'>Recognized as <b>Top 20</b> most impactful solutions by Moonshot Pirates for its potential real-world impact in disaster relief and crisis management</li>
                         </ul>
                         <div className='flex flex-wrap'>
-                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Dynamic Programming</span>
-                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Financial Modeling</span>
-                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Risk Management</span>
-                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Quantitative Analysis</span>
+                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Web Application Development</span>
+                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Database Management</span>
+                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Crisis Management</span>
+                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Hackathon</span>
                         </div>            
 
                     </motion.div>
@@ -39,7 +36,7 @@ const Experience = () => {
             <div className='flex justify-center'>
                 <div className='mb-8 flex lg:justify-center'>
                     <motion.div whileInView={{opacity:1, x:0}} initial={{opacity:0, x:-100}} transition={{duration:1}} className='w-full lg:w-1/4 justify-center items-center '>
-                        <p className='mb-2 text-violet-200 text-2xl'>May 2024 - June 2024</p>
+                        <p className='mb-2 text-violet-200 text-2xl'>November 2023 - January 2024</p>
                     </motion.div>
                     <motion.div whileInView={{opacity:1, x:0}} initial={{opacity:0, x:100}} transition={{duration:1}} className='w-full lg:pl-1/2 lg:w-3/4'>
                         <motion.button 
@@ -47,22 +44,18 @@ const Experience = () => {
                             whileTap={{ scale: 0.9 }} 
                             transition={{ type: "spring", stiffness: 400, damping: 17, duration: 1.5 }} 
                             className=" border-pink-500 bg-gradient-to-r from-pink-400 via-slate-200 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">
-                            <a href="https://app.moonshotpirates.com/voting/climate-24?team=1715422576809x820019839363973100"><h2 className='mb-2 fon-semibold text-4xl pb-3'>Future Shaper - <span className='text-2xl text-white'>Moonshot Pirates</span></h2></a>
+                            <a href="https://www.thepillar.app/"><h2 className='mb-2 fon-semibold text-4xl pb-3'>Director of Growth - <span className='text-2xl text-white'>The Pillar App</span></h2></a>
                         </motion.button>
                         <ul className='mb-3 text-2xl list-disc pl-5 lg:justify-center '>
-                            <li className='mb-2'>Led the development of TerraLink, a web application for the Shape the Future Challenge, a worldwide competition to present innovative ideas for combating climate change.</li>
-                            <li className='mb-2'>Designed and implemented features using Django, including disaster reporting, resource allocation, and real-time disaster updates.</li>
-                            <li className='mb-2'>Created and distributed 4 surveys with tailored questions to disaster response teams, NGOs, government agencies, and the public to gather diverse perspectives and data.</li>
-                            <li className='mb-2'>Recorded and presented a video explaining TerraLink’s functionality and the Shape the Future Challenge objectives, which was posted as a YouTube Shorts on their channel.</li>
-                            <li className='mb-2'>Demonstrated strong analytical thinking, problem-solving skills, and effective communication in presenting project outcomes to the board, following collaboration with four team members globally</li>
-                        
+                            <li className='mb-2'>Spearheaded social media growth for The Pillar App, a startup focused on personal development, aiming to boost engagement and brand visibility</li>
+                            <li className='mb-2'>Crafted content using <b>CapCut</b> for videos, <b>Python</b> for data analysis, <b>NLTK</b> for sentiment analysis, and <b>SQL</b> for data management and optimized performance with <b>Tableau</b> for visualization and <b>Google Analytics</b> for tracking</li>
+                            <li className='mb-2'>Drove a <b>200%</b> increase in engagement across social media platforms over 3 months, successfully onboarding <b>500+</b> users and significantly improving brand recognition and community loyalty</li>                        
                         </ul>
                         <div className='flex flex-wrap'>
-                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Django</span>
-                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Data Collection</span>
-                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Video Presentation</span>
-                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Global Collaboration</span>
-                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Problem Solving</span>
+                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Digital Marketing</span>
+                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Content Creation</span>
+                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Sentiment Analysis</span>
+                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>User Acquisition</span>
                         </div>            
 
                     </motion.div>
@@ -71,7 +64,7 @@ const Experience = () => {
             <div className='flex justify-center'>
                 <div className='mb-8 flex lg:justify-center'>
                     <motion.div whileInView={{opacity:1, x:0}} initial={{opacity:0, x:-100}} transition={{duration:1}} className='w-full lg:w-1/4 justify-center items-center '>
-                        <p className='mb-2 text-violet-200 text-2xl'>July 2023 - August 2023</p>
+                        <p className='mb-2 text-violet-200 text-2xl'>June 2022 - August 2022</p>
                     </motion.div>
                     <motion.div whileInView={{opacity:1, x:0}} initial={{opacity:0, x:100}} transition={{duration:1}} className='w-full lg:pl-1/2 lg:w-3/4'>
                         <motion.button 
@@ -79,20 +72,47 @@ const Experience = () => {
                             whileTap={{ scale: 0.9 }} 
                             transition={{ type: "spring", stiffness: 400, damping: 17, duration: 1.5 }} 
                             className=" border-pink-500 bg-gradient-to-r from-pink-400 via-slate-200 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">
-                            <a href="https://github.com/JaySinghvi/Data-Analyst-Internship-Excelerate"><h2 className='mb-2 fon-semibold text-4xl pb-3'>Data Analyst - <span className='text-2xl text-white'>Excelerate</span></h2></a>
+                            <a href="https://github.com/JaySinghvi/Data-Analyst-Internship-Excelerate"><h2 className='mb-2 fon-semibold text-4xl pb-3'>Marketing Data Analyst - <span className='text-2xl text-white'>Excelerate</span></h2></a>
                         </motion.button>
                         <ul className='mb-3 text-2xl list-disc pl-5 lg:justify-center '>
-                            <li className='mb-2'>Collaborated with 7 data analysts globally to optimize Facebook ads, achieving a 50% reduction in ad spend.</li>
-                            <li className='mb-2'>Conducted data analysis and created visualizations using Python to recommend ad discontinuation, enhancing campaign efficiency.</li>
-                            <li className='mb-2'>Awarded a $ 1000 scholarship and a star performer badge by Saint Louis University for outstanding performance during the internship.</li>
-                            <li className='mb-2'>Presented final analysis and recommendations to the HR department, demonstrating effective communication and presentation skills.</li>
+                            <li className='mb-2'>Optimized social-media ad campaigns alongside <b>7+ stakeholders</b> to increase user engagement data and reduce ad spend</li>
+                            <li className='mb-2'>Used <b>Python</b> to analyze user data, implemented <b>Power BI</b> dashboards to create interactive visualizations, and designed impactful reports with <b>Canva/Figma</b>, to discontinue underperforming campaigns</li>
+                            <li className='mb-2'>Achieved a <b>33%</b> growth in user engagement while forecasting the revenue saving in marketing operations of <b>$57K+</b> quarterly</li>
                         
                         </ul>
                         <div className='flex flex-wrap'>
                             <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Ad-Optimization</span>
                             <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Data Visualization</span>
-                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Global Collaboration</span>
-                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Award Recognition</span>
+                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Stakeholder Collaboration</span>
+                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Cost Reduction</span>
+                        </div>            
+
+                    </motion.div>
+                </div>
+            </div>
+            <div className='flex justify-center'>
+                <div className='mb-8 flex lg:justify-center'>
+                    <motion.div whileInView={{opacity:1, x:0}} initial={{opacity:0, x:-100}} transition={{duration:1}} className='w-full lg:w-1/4 justify-center items-center '>
+                        <p className='mb-2 text-violet-200 text-2xl'>May 2021 - September 2021</p>
+                    </motion.div>
+                    <motion.div whileInView={{opacity:1, x:0}} initial={{opacity:0, x:100}} transition={{duration:1}} className='w-full lg:pl-1/2 lg:w-3/4'>
+                        <motion.button 
+                            whileHover={{ scale: 1.2 }}
+                            whileTap={{ scale: 0.9 }} 
+                            transition={{ type: "spring", stiffness: 400, damping: 17, duration: 1.5 }} 
+                            className=" border-pink-500 bg-gradient-to-r from-pink-400 via-slate-200 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">
+                            <a href="https://github.com/JaySinghvi/Full-Stack-Web-Development-Internship"><h2 className='mb-2 fon-semibold text-4xl pb-3'>Full Stack Web Developer - <span className='text-2xl text-white'>Edureka</span></h2></a>
+                        </motion.button>
+                        <ul className='mb-3 text-2xl list-disc pl-5 lg:justify-center '>
+                            <li className='mb-2'>Developed an <b>interactive website</b> for Covid-19 impacted K-12 students, to help teachers upload courses and assignments, and enable students to access and download content, easing teacher-student communication</li>
+                            <li className='mb-2'>Built accessible features with <b>React.js</b>, implemented server-side functionality using <b>Express.js</b> and <b>Node.js</b>, and managed user profile data with <b>MySQL</b>, ensuring platform accessibility with <b>WCAG</b> guidelines</li>
+                            <li className='mb-2'>Deployed the platform with <b>2K+</b> active students, enhancing student engagement and learning flexibility</li>                        
+                        </ul>
+                        <div className='flex flex-wrap'>
+                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Full Stack Web Development</span>
+                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>UI/UX Design</span>
+                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Deployment & Scalability</span>
+                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>EdTech Solutions</span>
                         </div>            
 
                     </motion.div>

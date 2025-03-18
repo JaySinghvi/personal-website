@@ -45,7 +45,7 @@ const News = () => {
                 whileTap={{ scale: 0.9 }} 
                 transition={{ type: "spring", stiffness: 400, damping: 17, duration: 1.5 }} 
                 className=" border-pink-500 bg-gradient-to-r from-pink-400 via-slate-200 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">
-                <a href="https://github.com/JaySinghvi/Stock-Sentiment-Analysis-Using-News-Data-Market-Trends"><h6 className='mb-2 fon-semibold text-3xl pb-3'>S<b>Stock Sentiment Analysis Using News Data & Market Trends</b></h6></a>
+                <a href="https://github.com/JaySinghvi/Stock-Sentiment-Analysis-Using-News-Data-Market-Trends"><h6 className='mb-2 fon-semibold text-3xl pb-3'><b>Stock Sentiment Analysis Using News Data & Market Trends</b></h6></a>
               </motion.button>
               <ul className='list-disc pl-5 lg:justify-center text-2xl'>
                 <li className='mb-2'>Performed <b>sentiment analysis</b> on stocks of major companies like Nvidia, Spotify, Meta, Microsoft, Amazon, Tesla, Citigroup Inc, and Apple to assess market sentiment and its impact on stock trends.</li>

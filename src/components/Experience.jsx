@@ -16,18 +16,19 @@ const Experience = () => {
                             whileTap={{ scale: 0.9 }} 
                             transition={{ type: "spring", stiffness: 400, damping: 17, duration: 1.5 }} 
                             className=" border-pink-500 bg-gradient-to-r from-pink-400 via-slate-200 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">
-                            <a href="https://app.moonshotpirates.com/voting/climate-24?team=1715422576809x820019839363973100"><h2 className='mb-2 fon-semibold text-4xl pb-3'>Software Engineer - <span className='text-2xl text-white'>Moonshot Pirates</span></h2></a>
+                            <a href="https://app.moonshotpirates.com/voting/climate-24?team=1715422576809x820019839363973100"><h2 className='mb-2 fon-semibold text-4xl pb-3'>Machine Learning Engineer - <span className='text-2xl text-white'>Moonshot Pirates</span></h2></a>
                         </motion.button>
                         <ul className='mb-3 text-2xl list-disc pl-5 lg:justify-center '>
-                            <li className='mb-2'>Led the development of the <b>Django-based web app</b> to compete with <b>5000+</b> students globally in the Shape the Future hackathon, tackling disaster management solutions</li>
-                            <li className='mb-2'>Used <b>Python</b>, <b>SQL</b> and <b>Javascript</b> to enable real-time aid monitoring, team deployment, and resource management</li>
-                            <li className='mb-2'>Recognized as <b>Top 20</b> most impactful solutions by Moonshot Pirates for its potential real-world impact in disaster relief and crisis management</li>
+                            <li className='mb-2'>Developed an <b>AI-powered</b> disaster response system using <b>Django</b>, <b>Python</b>, and <b>SQL</b>, integrating <b>ML models</b> to predict high-risk areas and optimize resource allocation, reducing response time by <b>30%</b></li>
+                            <li className='mb-2'>Implemented <b>predictive models</b> to forecast disaster impact and automate aid distribution, improving response efficiency and reducing misallocation by <b>25%</b></li>
+                            <li className='mb-2'>Designed an interactive <b>JavaScript</b> dashboard, visualizing real-time risk assessments, increasing response coordination speed by <b>40%</b></li>
+                            <li className='mb-2'>Processed and analyzed <b>1K+</b> disaster records, enhancing data-driven decision-making for emergency teams</li>
                         </ul>
                         <div className='flex flex-wrap'>
-                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Web Application Development</span>
-                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Database Management</span>
-                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Crisis Management</span>
-                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Hackathon</span>
+                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Machine Learning</span>
+                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Predictive Modeling</span>
+                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Data Visualization</span>
+                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Disaster Management</span>
                         </div>            
 
                     </motion.div>
@@ -47,15 +48,15 @@ const Experience = () => {
                             <a href="https://www.thepillar.app/"><h2 className='mb-2 fon-semibold text-4xl pb-3'>Director of Growth - <span className='text-2xl text-white'>The Pillar App</span></h2></a>
                         </motion.button>
                         <ul className='mb-3 text-2xl list-disc pl-5 lg:justify-center '>
-                            <li className='mb-2'>Spearheaded social media growth for The Pillar App, a startup focused on personal development, aiming to boost engagement and brand visibility</li>
-                            <li className='mb-2'>Crafted content using <b>CapCut</b> for videos, <b>Python</b> for data analysis, <b>NLTK</b> for sentiment analysis, and <b>SQL</b> for data management and optimized performance with <b>Tableau</b> for visualization and <b>Google Analytics</b> for tracking</li>
-                            <li className='mb-2'>Drove a <b>200%</b> increase in engagement across social media platforms over 3 months, successfully onboarding <b>500+</b> users and significantly improving brand recognition and community loyalty</li>                        
+                            <li className='mb-2'>Led <b>AI-driven</b> growth strategy, <b>managing content-creation</b> and <b>marketing analytics teams</b>, using <b>machine learning</b> insights to optimize engagement and video content strategy</li>
+                            <li className='mb-2'>Developed an AI-powered <b>sentiment analysis</b> pipeline using <b>Python</b>, <b>NLTK</b>, and <b>SQL</b>, analyzing user comments and reactions to optimize content decisions, increasing user engagement by <b>200%</b></li>
+                            <li className='mb-2'>Built <b>automated</b> marketing analytics dashboards in <b>Tableau</b>, integrating <b>Google Analytics API</b> and <b>SQL pipelines</b> to track key engagement trends and optimize content distribution, leading to <b>500+</b> new user acquisitions</li>                        
                         </ul>
                         <div className='flex flex-wrap'>
-                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Digital Marketing</span>
-                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Content Creation</span>
+                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Artificial Intelligence</span>
                             <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Sentiment Analysis</span>
-                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>User Acquisition</span>
+                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Marketing Analytics</span>
+                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Content Optimization</span>
                         </div>            
 
                     </motion.div>
@@ -72,19 +73,19 @@ const Experience = () => {
                             whileTap={{ scale: 0.9 }} 
                             transition={{ type: "spring", stiffness: 400, damping: 17, duration: 1.5 }} 
                             className=" border-pink-500 bg-gradient-to-r from-pink-400 via-slate-200 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">
-                            <a href="https://github.com/JaySinghvi/Data-Analyst-Internship-Excelerate"><h2 className='mb-2 fon-semibold text-4xl pb-3'>Marketing Data Analyst - <span className='text-2xl text-white'>Excelerate</span></h2></a>
+                            <a href="https://github.com/JaySinghvi/Data-Analyst-Internship-Excelerate"><h2 className='mb-2 fon-semibold text-4xl pb-3'>Marketing Data Scientist - <span className='text-2xl text-white'>Excelerate</span></h2></a>
                         </motion.button>
                         <ul className='mb-3 text-2xl list-disc pl-5 lg:justify-center '>
-                            <li className='mb-2'>Optimized social-media ad campaigns alongside <b>7+ stakeholders</b> to increase user engagement data and reduce ad spend</li>
-                            <li className='mb-2'>Used <b>Python</b> to analyze user data, implemented <b>Power BI</b> dashboards to create interactive visualizations, and designed impactful reports with <b>Canva/Figma</b>, to discontinue underperforming campaigns</li>
-                            <li className='mb-2'>Achieved a <b>33%</b> growth in user engagement while forecasting the revenue saving in marketing operations of <b>$57K+</b> quarterly</li>
+                            <li className='mb-2'>Analyzed <b>CSV-based</b> campaign data across <b>7+</b> geographies to identify underperforming ads and reduce marketing costs</li>
+                            <li className='mb-2'>Built <b>ML-driven forecasting models</b> and <b>Power BI</b> dashboards to compare campaign efficiency and reduce campaign costs</li>
+                            <li className='mb-2'>Recommended discontinuing least effective campaigns based on predictive insights, driving a <b>33%</b> increase in user engagement and <b>$57K+</b> in quarterly savings, while boosting ROI and optimizing ad spend</li>
                         
                         </ul>
                         <div className='flex flex-wrap'>
+                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Marketing Data Analysis</span>
+                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Forecasting Models</span>
                             <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Ad-Optimization</span>
-                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Data Visualization</span>
-                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Stakeholder Collaboration</span>
-                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Cost Reduction</span>
+                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Revenue Efficiency</span>
                         </div>            
 
                     </motion.div>

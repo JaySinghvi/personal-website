@@ -10,7 +10,7 @@ const AlignTimeline = ({ align }) => (
     <Timeline.Item>
         <div className='border rounded-2xl border-purple-900 w-full pl-4 pb-3'>
             <p className='pt-4'>Present</p>
-            <p>Data Science at University of Massachusetts Amherst</p>
+            <p>B.S Data Science at University of Massachusetts Amherst</p>
         </div>
     </Timeline.Item>
     <Timeline.Item>

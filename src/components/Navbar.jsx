@@ -11,7 +11,7 @@ const Navbar = () => {
               whileTap={{ scale: 0.9 }} 
               transition={{ type: "spring", stiffness: 400, damping: 17, duration: 1.5 }} 
               className=" border-pink-400 bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">
-              <motion.a href ="https://drive.google.com/drive/folders/10AM5ziNh3UdPHuOw_bQsHsrunjoXURZU?usp=sharing" className="text-4xl">A Look at My Resume</motion.a>
+              <motion.a href ="https://drive.google.com/file/d/1rHmSWypW6wEYM4cfG9AEaadRDQx3sQ43/view?usp=sharing" className="text-4xl">A Look at My Resume</motion.a>
             </motion.button>
         </motion.div>
         <div className="m-8 flex items-center justify-center gap-4 text-4xl">

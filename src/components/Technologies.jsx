@@ -3,7 +3,6 @@ import { FaPython } from "react-icons/fa6";
 import { SiMysql } from "react-icons/si";
 import { FaRProject } from "react-icons/fa6";
 import { FaReact } from "react-icons/fa6";
-import { PiMicrosoftExcelLogoFill } from "react-icons/pi";
 import { IoLogoTableau } from "react-icons/io5";
 import { SiPowerbi } from "react-icons/si";
 import { SiTensorflow } from "react-icons/si";
@@ -43,9 +42,6 @@ const Technologies = () => {
             </motion.div>
             <motion.div variants={iconVariants(2)} initial="initial" animate="animate" className='rounded-2xl border-4 border-neutral-800 p-4'>
                 <FaRProject className='text-7xl text-indigo-400' />
-            </motion.div>
-            <motion.div variants={iconVariants(6)} initial="initial" animate="animate" className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <PiMicrosoftExcelLogoFill className='text-7xl text-green-500' />
             </motion.div>
             <motion.div variants={iconVariants(4)} initial="initial" animate="animate" className='rounded-2xl border-4 border-neutral-800 p-4'>
                 <IoLogoTableau className='text-7xl text-gray-400' />

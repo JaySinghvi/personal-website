@@ -3,10 +3,9 @@ import project2 from "../assets/projects/tech.png";
 import project3 from "../assets/projects/news.png";
 import project4 from "../assets/projects/entertainment.png";
 
-export const HERO_CONTENT = `Hi, I'm Jay Singhvi, a tech enthusiast, passionate about solving complex problems at the intersection of AI, finance, and innovation. 
-                            With experience in artificial intelligence, machine learning, and full-stack development, I thrive on building data-driven solutions that drive real-world impact.
-                            Whether it's developing predictive models, optimizing marketing strategies, or creating AI-powered fintech products, I love turning ideas into scalable solutions. 
-                            Explore my projects, research, and insights as I continue pushing boundaries in technology and entrepreneurship!`;
+export const HERO_CONTENT = `Hi, I’m Jay Singhvi — a data scientist passionate about building intelligent, scalable systems. From ML pipelines to NLP-based recommenders, 
+                            I turn complex data into actionable solutions. With a foundation in statistics, Python, and full-stack dev, I bridge data, product, and business 
+                            to create real-world impact.`;
 
 
 export const EXPERIENCES = [

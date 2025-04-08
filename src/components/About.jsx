@@ -9,8 +9,12 @@ const AlignTimeline = ({ align }) => (
   <Timeline align={align} style={{width: '1400px', position: 'relative'}}>
     <Timeline.Item>
         <div className='border rounded-2xl border-purple-900 w-full pl-4 pb-3'>
-            <p className='pt-4'>Present</p>
-            <p>B.S Data Science at University of Massachusetts Amherst</p>
+            <p className='pt-4'>🎓 Present</p>
+          <ul>
+            <li><b>B.S in Data Science</b></li>
+            <li><i>University of Massachusetts Amherst</i></li>
+          </ul>
+            
         </div>
     </Timeline.Item>
     <Timeline.Item>

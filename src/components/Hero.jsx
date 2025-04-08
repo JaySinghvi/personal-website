@@ -1,5 +1,4 @@
 import React from 'react'
-import {HERO_CONTENT} from "../constants";
 import profilePic from "../assets/profile.png";
 import { motion } from 'framer-motion';
 
@@ -23,7 +22,15 @@ const Hero = () => {
                         initial={{x:-100, opacity:0}}
                         transition={{duration:0.5, delay:1}}
                         className='my-2 max-w-xl py-6 text-2xl'>
-                        {HERO_CONTENT}
+                        <ul>
+                          <li>🔭 I build intelligent systems that merge data, design, and business — from disaster response platforms to emotion-aware music recommenders</li>
+                          <li>🌱 Currently exploring deep & reinforcement learning, cloud deployment, and real-time data products</li>
+                          <li>👨‍💻 Experienced in Python, R, SQL, TensorFlow, Scikit-learn, OpenCV, Streamlit, Power BI, and full-stack development</li>
+                          <li>🚀 Passionate about solving real-world problems through NLP, recommender systems, predictive modeling, and automation</li>
+                          <li>🎓 Studying Informatics & Data Science at UMass Amherst (GPA: 3.95), with a research background in secure medical AI</li>
+                          <li>💡 Always looking to collaborate on projects where innovation, impact, and scalability meet</li>
+                          <li>📫 Let’s connect — whether it’s for a project, a research idea, or just to geek out on AI!</li>
+                        </ul>
                     </motion.p>
                 </div>
             </div>

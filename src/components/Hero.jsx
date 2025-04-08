@@ -26,11 +26,11 @@ const Hero = () => {
         >
           <li>🔭 I build intelligent systems that blend data, design, and real-world impact</li>
           <li>🌱 Exploring multi-modal learning, cloud deployment, and real-time AI applications</li>
-          <li>👨‍💻 Experienced in Python, R, SQL, TensorFlow, Scikit-learn, OpenCV, Streamlit, Power BI, and full-stack development</li>
-          <li>🚀 Passionate about solving real-world problems through NLP, recommender systems, predictive modeling, and automation</li>
-          <li>🎓 Studying Informatics & Data Science at UMass Amherst (GPA: 3.95), with a research background in secure medical AI</li>
-          <li>💡 Always looking to collaborate on projects where innovation, impact, and scalability meet</li>
-          <li>📫 Let’s connect — whether it’s for a project, a research idea, or just to geek out on AI!</li>
+          <li>👨‍💻 Experienced in Python, R, SQL, TensorFlow, Scikit-learn, OpenCV, and full-stack development</li>
+          <li>🚀 Passionate about NLP, recommenders, predictive modeling, and automation</li>
+          <li>🎓 Studying Data Science at UMass Amherst (GPA: 3.95) with research in medical AI</li>
+          <li>💡 Open to building scalable, innovative solutions through collaboration</li>
+          <li>📫 Let’s connect - for projects, research, or AI-geek convos!</li>
         </motion.ul>
 
       </div>

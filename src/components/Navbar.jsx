@@ -1,5 +1,6 @@
 import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";
+import { FaGraduationCap } from 'react-icons/fa';
 import { motion } from "framer-motion";
 
 const Navbar = () => {
@@ -17,6 +18,8 @@ const Navbar = () => {
         <div className="m-8 flex items-center justify-center gap-4 text-4xl">
             <motion.button whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }} transition={{ type: "spring", stiffness: 400, damping: 17 }}><a href="https://www.linkedin.com/in/jaysinghvi/"><FaLinkedin /></a></motion.button>
             <motion.button whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }} transition={{ type: "spring", stiffness: 400, damping: 17 }}><a href="https://github.com/JaySinghvi"><FaGithub /></a></motion.button>
+            <motion.button whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }} transition={{ type: "spring", stiffness: 400, damping: 17 }}><a href="https://scholar.google.com/citations?hl=en&user=dvyOCCIAAAAJ"><FaGraduationCap /></a></motion.button>
+
         </div>
 
     </nav>

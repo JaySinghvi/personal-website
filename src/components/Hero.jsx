@@ -34,11 +34,6 @@ const Hero = () => {
                     </motion.p>
                 </div>
             </div>
-            <div className='lg:w-1/2 lg:p-3'>
-                <div className='flex justify-end'>
-                    <motion.img whileInView={{x:0, opacity:1}} initial={{x:100, opacity:0}} transition={{duration:1, delay:1.2}} className='w-64 rounded-3xl shadow-2xl shadow-purple-950' src={profilePic} alt="profile_pic"/>
-                </div>
-            </div>
         </div>
     </div>
   )

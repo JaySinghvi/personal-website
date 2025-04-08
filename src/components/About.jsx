@@ -13,20 +13,27 @@ const AlignTimeline = ({ align }) => (
           <ul>
             <li><b>B.S in Data Science</b></li>
             <li><i>University of Massachusetts Amherst</i></li>
+            <li> → Focused on machine learning, data science, and applied AI with a GPA of 3.95/4.00</li>
           </ul>
             
         </div>
     </Timeline.Item>
     <Timeline.Item>
         <div className='border pr-4 rounded-2xl border-purple-900 pb-3 w-full'>
-            <p>Aug 2019 - Jul 2021</p>
-            <p>Pursued International Baccalaureate Diploma Program</p>
+            <p>🏫 Aug 2019 – Jul 2021</p>
+          <ul>
+            <li><b>International Baccalaureate Diploma Programme (IBDP)</b></li>
+            <li> → Completed the IB Diploma with a focus on Science and Mathematics</li>
+          </ul>
         </div>
     </Timeline.Item>
     <Timeline.Item>
         <div className='border p-4 rounded-2xl border-purple-900'>
-            <p>Till 2018</p>
-            <p>Studied the International General Certificate of Secondary Education (IGCSE) curriculum from Grade 1 to Grade 10.</p>
+            <p>📘 Till 2018</p>
+          <ul>
+            <li><b>International General Certificate of Secondary Education (IGCSE)</b></li>
+            <li> → Studied the Cambridge curriculum from Grade 1 to 10, developing a strong foundation in logic, analytical thinking, and communication</li>
+          </ul>
         </div>
     </Timeline.Item>
   </Timeline>

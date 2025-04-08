@@ -3,13 +3,13 @@ import project2 from "../assets/projects/tech.png";
 import project3 from "../assets/projects/news.png";
 import project4 from "../assets/projects/entertainment.png";
 
-export const HERO_CONTENT = `Hi, I’m Jay 👋`;
-`🔭 I build intelligent systems that merge data, design, and business — from disaster response platforms to emotion-aware music recommenders`;
-`🌱 Currently exploring deep & reinforcement learning, cloud deployment, and real-time data products`;
-`👨‍💻 Experienced in Python, R, SQL, TensorFlow, Scikit-learn, OpenCV, Streamlit, Power BI, and full-stack development`;
-`🚀 Passionate about solving real-world problems through NLP, recommender systems, predictive modeling, and automation`;
-`🎓 Studying Informatics & Data Science at UMass Amherst (GPA: 3.95), with a research background in secure medical AI`;
-`💡 Always looking to collaborate on projects where innovation, impact, and scalability meet`;
+export const HERO_CONTENT = `Hi, I’m Jay 👋`
+`🔭 I build intelligent systems that merge data, design, and business — from disaster response platforms to emotion-aware music recommenders`
+`🌱 Currently exploring deep & reinforcement learning, cloud deployment, and real-time data products`
+`👨‍💻 Experienced in Python, R, SQL, TensorFlow, Scikit-learn, OpenCV, Streamlit, Power BI, and full-stack development`
+`🚀 Passionate about solving real-world problems through NLP, recommender systems, predictive modeling, and automation`
+`🎓 Studying Informatics & Data Science at UMass Amherst (GPA: 3.95), with a research background in secure medical AI`
+`💡 Always looking to collaborate on projects where innovation, impact, and scalability meet`
 `📫 Let’s connect — whether it’s for a project, a research idea, or just to geek out on AI!`;
 
 

@@ -14,7 +14,7 @@ const Hero = () => {
                         whileInView={{x:0, opacity:1}}
                         initial={{x:-100, opacity:0}}
                         transition={{duration:0.5, delay:0}}
-                        className='pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl'>
+                        className='text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl'>
                         Hi I'm Jay Singhvi 👋
                     </motion.h1>
                     <motion.p

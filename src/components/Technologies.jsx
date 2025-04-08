@@ -9,7 +9,10 @@ import { SiPowerbi } from "react-icons/si";
 import { SiTensorflow } from "react-icons/si";
 import { SiOpencv } from "react-icons/si";
 import { motion } from 'framer-motion';
-
+import { SiPytorch } from "react-icons/si";
+import { SiScikitlearn } from "react-icons/si";
+import { SiStreamlit } from "react-icons/si";
+import { SiHuggingface } from "react-icons/si";
 
 const iconVariants = (duration) => ({
     initial: {y: -10},
@@ -55,6 +58,18 @@ const Technologies = () => {
             </motion.div>
             <motion.div variants={iconVariants(2.5)} initial="initial" animate="animate" className='rounded-2xl border-4 border-neutral-800 p-4'>
                 <SiOpencv className='text-7xl text-red-400' />
+            </motion.div>
+            <motion.div variants={iconVariants(2.5)} initial="initial" animate="animate" className='rounded-2xl border-4 border-neutral-800 p-4'>
+                <SiPytorch className='text-7xl text-red-400' />
+            </motion.div>
+             <motion.div variants={iconVariants(2.5)} initial="initial" animate="animate" className='rounded-2xl border-4 border-neutral-800 p-4'>
+                <SiScikitlearn className='text-7xl text-red-400' />
+            </motion.div>
+             <motion.div variants={iconVariants(2.5)} initial="initial" animate="animate" className='rounded-2xl border-4 border-neutral-800 p-4'>
+                <SiStreamlit className='text-7xl text-red-400' />
+            </motion.div>
+            <motion.div variants={iconVariants(2.5)} initial="initial" animate="animate" className='rounded-2xl border-4 border-neutral-800 p-4'>
+                <SiHuggingface className='text-7xl text-red-400' />
             </motion.div>
         </motion.div>
     </div>

@@ -19,15 +19,14 @@ const Publication = () => {
                             <a href="https://link.springer.com/chapter/10.1007/978-981-99-2264-2_17"><h2 className='mb-2 fon-semibold text-4xl pb-3'>Cyber Security and Layering of Medical Data Using Machine Learning Algorithms</h2></a>
                         </motion.button>
                         <ul className='mb-3 text-2xl list-disc pl-5 lg:justify-center '>
-                            <li className='mb-2'>Co-authored a research paper published in <b>Applications and Techniques in Information Security</b> on <b>Springer Link</b></li>
-                            <li className='mb-2'>Analyzed medical datasets for Hepatitis C and Diabetes from <b>1.5K+</b> patients, building and optimizing a disease prediction model using multiple machine learning methodologies like <b>Logistic Regression</b>, <b>SVM</b>, and <b>Gaussian Naive Bayes</b></li>
-                            <li className='mb-2'>Achieved <b>94.308%</b> accuracy with <b>Gradient Boosting Classifier</b> for Hepatitis C prediction, showcasing machine learning’s impact on medical cybersecurity and faster disease diagnosis for doctors</li>                      
+                            <li className='mb-2'>Published a research paper in <i>Applications and Techniques in Information Security</i>, presenting machine learning techniques for disease classification using sensitive medical data, highlighting the importance of secure data handling in healthcare systems</li>
+                            <li className='mb-2'>Implemented and evaluated models on patient datasets involving Hepatitis C and Diabetes, achieving <b>94.3% accuracy with Gradient Boosting Classifier</b>, demonstrating the role of machine learning in accelerating and improving clinical decision-making</li>                      
                         </ul>
                         <div className='flex flex-wrap'>
-                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Machine Learning</span>
+                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Supervised Learning</span>
                             <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Medical Data Analysis</span>
-                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Statistical Analysis</span>
                             <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Model Evaluation</span>
+                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Machine Learning Research</span>
                         </div>            
 
                     </motion.div>

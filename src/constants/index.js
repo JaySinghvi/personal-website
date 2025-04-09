@@ -64,5 +64,5 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  email: "jay.singhvi04@gmail.com",
+  email: "jsinghvi33@gmail.com",
 };

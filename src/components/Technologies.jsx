@@ -11,6 +11,9 @@ import { SiPytorch } from "react-icons/si";
 import { SiScikitlearn } from "react-icons/si";
 import { SiStreamlit } from "react-icons/si";
 import { IoLogoVercel } from "react-icons/io5";
+import { SiPandas } from "react-icons/si";
+import { SiNumpy } from "react-icons/si";
+import { SiPlotly } from "react-icons/si";
 
 
 const iconVariants = (duration) => ({
@@ -51,6 +54,15 @@ const Technologies = () => {
             </motion.div>
             <motion.div variants={iconVariants(2.5)} initial="initial" animate="animate" className='rounded-2xl border-4 border-neutral-800 p-4'>
                 <SiOpencv className='text-7xl text-red-400' />
+            </motion.div>
+            <motion.div variants={iconVariants(4)} initial="initial" animate="animate" className='rounded-2xl border-4 border-neutral-800 p-4'>
+                <SiPandas className='text-7xl text-gray-400' />
+            </motion.div>
+            <motion.div variants={iconVariants(4)} initial="initial" animate="animate" className='rounded-2xl border-4 border-neutral-800 p-4'>
+                <SiNumpy className='text-7xl text-gray-400' />
+            </motion.div>
+            <motion.div variants={iconVariants(4)} initial="initial" animate="animate" className='rounded-2xl border-4 border-neutral-800 p-4'>
+                <SiPlotly className='text-7xl text-gray-400' />
             </motion.div>
              <motion.div variants={iconVariants(2.5)} initial="initial" animate="animate" className='rounded-2xl border-4 border-neutral-800 p-4'>
                 <SiStreamlit className='text-7xl text-red-400' />

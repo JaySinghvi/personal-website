@@ -52,7 +52,7 @@ const Experience = () => {
                         <div className='flex flex-wrap'>
                             <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Sentiment Analysis & NLP</span>
                             <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>User Behavior Analytics</span>
-                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Personalized Recommendation Systems</span>
+                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Feature Selection</span>
                             <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Content Optimization</span>
                         </div>            
                     </motion.div>
@@ -76,10 +76,10 @@ const Experience = () => {
                             <li className='mb-2'>Developed forecasting models and interactive Power BI dashboards for evaluating cross-regional campaign efficiency, resulting in a <b>33% boost in user engagement</b> and <b>$57K+ in quarterly savings</b> through predictive analytics and targeted ad budget reallocation</li>
                         </ul>
                         <div className='flex flex-wrap'>
-                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Marketing Data Analysis</span>
+                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Marketing Analytics</span>
                             <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Forecasting Models</span>
-                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Ad-Optimization</span>
-                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Revenue Efficiency</span>
+                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Cost Optimization</span>
+                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>KPI Monitoring</span>
                         </div>            
 
                     </motion.div>
@@ -96,12 +96,11 @@ const Experience = () => {
                             whileTap={{ scale: 0.9 }} 
                             transition={{ type: "spring", stiffness: 400, damping: 17, duration: 1.5 }} 
                             className=" border-pink-500 bg-gradient-to-r from-pink-400 via-slate-200 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">
-                            <a href="https://github.com/JaySinghvi/Full-Stack-Web-Development-Internship"><h2 className='mb-2 fon-semibold text-4xl pb-3'>Full Stack Web Developer - <span className='text-2xl text-white'>Edureka</span></h2></a>
+                            <a href="https://github.com/JaySinghvi/Full-Stack-Web-Development-Internship"><h2 className='mb-2 fon-semibold text-4xl pb-3'>Full Stack Web Developer Intern - <span className='text-2xl text-white'>Edureka</span></h2></a>
                         </motion.button>
                         <ul className='mb-3 text-2xl list-disc pl-5 lg:justify-center '>
-                            <li className='mb-2'>Developed an <b>interactive website</b> for Covid-19 impacted K-12 students, to help teachers upload courses and assignments, and enable students to access and download content, easing teacher-student communication</li>
-                            <li className='mb-2'>Built accessible features with <b>React.js</b>, implemented server-side functionality using <b>Express.js</b> and <b>Node.js</b>, and managed user profile data with <b>MySQL</b>, ensuring platform accessibility with <b>WCAG</b> guidelines</li>
-                            <li className='mb-2'>Deployed the platform with <b>2K+</b> active students, enhancing student engagement and learning flexibility</li>                        
+                            <li className='mb-2'>Designed an interactive web-based learning platform for K–12 students and teachers impacted by COVID-19, enabling seamless course uploads, assignment sharing, and resource access while improving learning communication between students and teachers</li>
+                            <li className='mb-2'>Built responsive frontend components using React.js and implemented backend functionality with Express.js, Node.js, and MySQL; ensuring accessibility through WCAG standards and scaling the platform to <b>support 2,000 actively engaged users</b></li>                      
                         </ul>
                         <div className='flex flex-wrap'>
                             <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Full Stack Web Development</span>

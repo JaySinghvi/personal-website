@@ -14,7 +14,7 @@ const Hero = () => {
           transition={{ duration: 0.5, delay: 0 }}
           className='text-center text-5xl font-thin tracking-tight mt-16 lg:text-7xl w-full'
         >
-          Hi I'm Jay Singhvi 👋
+          Hi, I'm Jay Singhvi 👋
         </motion.h1>
 
         {/* Bullet Points Left Aligned */}

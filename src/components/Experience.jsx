@@ -16,19 +16,17 @@ const Experience = () => {
                             whileTap={{ scale: 0.9 }} 
                             transition={{ type: "spring", stiffness: 400, damping: 17, duration: 1.5 }} 
                             className=" border-pink-500 bg-gradient-to-r from-pink-400 via-slate-200 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">
-                            <a href="https://app.moonshotpirates.com/voting/climate-24?team=1715422576809x820019839363973100"><h2 className='mb-2 fon-semibold text-4xl pb-3'>Machine Learning Engineer - <span className='text-2xl text-white'>Moonshot Pirates</span></h2></a>
+                            <a href="https://app.moonshotpirates.com/voting/climate-24?team=1715422576809x820019839363973100"><h2 className='mb-2 fon-semibold text-4xl pb-3'>Machine Learning Engineer Intern - <span className='text-2xl text-white'>Moonshot Pirates</span></h2></a>
                         </motion.button>
                         <ul className='mb-3 text-2xl list-disc pl-5 lg:justify-center '>
-                            <li className='mb-2'>Developed an <b>AI-powered</b> disaster response system using <b>Django</b>, <b>Python</b>, and <b>SQL</b>, integrating <b>ML models</b> to predict high-risk areas and optimize resource allocation, reducing response time by <b>30%</b></li>
-                            <li className='mb-2'>Implemented <b>predictive models</b> to forecast disaster impact and automate aid distribution, improving response efficiency and reducing misallocation by <b>25%</b></li>
-                            <li className='mb-2'>Designed an interactive <b>JavaScript</b> dashboard, visualizing real-time risk assessments, increasing response coordination speed by <b>40%</b></li>
-                            <li className='mb-2'>Processed and analyzed <b>1K+</b> disaster records, enhancing data-driven decision-making for emergency teams</li>
+                            <li className='mb-2'>Developed a disaster response system that <b>reduced emergency response time by 30%</b> and <b>improved aid accuracy by 25%</b>, combining geospatial modeling, real-time impact forecasting, and resource allocation into a cohesive platform for emergency teams</li>
+                            <li className='mb-2'>Created and deployed an interactive dashboard that <b>visualized over 1,000 disaster scenarios</b>, enabling faster, data-backed decisions and <b>improving emergency coordination by 40%</b> through real-time risk mapping, geospatial overlays, and alert-based prioritization</li>
                         </ul>
                         <div className='flex flex-wrap'>
-                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Machine Learning</span>
                             <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Predictive Modeling</span>
+                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Simulation & Risk Mapping</span>
                             <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Data Visualization</span>
-                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Disaster Management</span>
+                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Dashboard Development</span>
                         </div>            
 
                     </motion.div>
@@ -45,17 +43,16 @@ const Experience = () => {
                             whileTap={{ scale: 0.9 }} 
                             transition={{ type: "spring", stiffness: 400, damping: 17, duration: 1.5 }} 
                             className=" border-pink-500 bg-gradient-to-r from-pink-400 via-slate-200 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">
-                            <a href="https://www.thepillar.app/"><h2 className='mb-2 fon-semibold text-4xl pb-3'>Director of Growth - <span className='text-2xl text-white'>The Pillar App</span></h2></a>
+                            <a href="https://www.thepillar.app/"><h2 className='mb-2 fon-semibold text-4xl pb-3'>Machine Learning Intern - <span className='text-2xl text-white'>Boulevard Legacy LLC</span></h2></a>
                         </motion.button>
                         <ul className='mb-3 text-2xl list-disc pl-5 lg:justify-center '>
-                            <li className='mb-2'>Led <b>AI-driven</b> growth strategy, <b>managing content-creation</b> and <b>marketing analytics teams</b>, using <b>machine learning</b> insights to optimize engagement and video content strategy</li>
-                            <li className='mb-2'>Developed an AI-powered <b>sentiment analysis</b> pipeline using <b>Python</b>, <b>NLTK</b>, and <b>SQL</b>, analyzing user comments and reactions to optimize content decisions, increasing user engagement by <b>200%</b></li>
-                            <li className='mb-2'>Built <b>automated</b> marketing analytics dashboards in <b>Tableau</b>, integrating <b>Google Analytics API</b> and <b>SQL pipelines</b> to track key engagement trends and optimize content distribution, leading to <b>500+</b> new user acquisitions</li>                        
-                        </ul>
+                            <li className='mb-2'>Implemented a sentiment analysis pipeline to uncover users’ emotional patterns from their interactions, resulting in smarter content decisions and driving a <b>200% engagement increase</b> across high-performing video campaigns by aligning content with user behavior</li>
+                            <li className='mb-2'>Designed automated dashboards by integrating Tableau, SQL workflows, and different analytics tools to enable the monitoring of user behavior trends, resulting in the <b>onboarding of 500+ new users</b> through personalized recommendations and content distribution</li>
+                        <ul>
                         <div className='flex flex-wrap'>
-                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Artificial Intelligence</span>
-                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Sentiment Analysis</span>
-                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Marketing Analytics</span>
+                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Sentiment Analysis & NLP</span>
+                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>User Behavior Analytics</span>
+                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Personalized Recommendation Systems</span>
                             <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Content Optimization</span>
                         </div>            
 
@@ -73,13 +70,11 @@ const Experience = () => {
                             whileTap={{ scale: 0.9 }} 
                             transition={{ type: "spring", stiffness: 400, damping: 17, duration: 1.5 }} 
                             className=" border-pink-500 bg-gradient-to-r from-pink-400 via-slate-200 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">
-                            <a href="https://github.com/JaySinghvi/Data-Analyst-Internship-Excelerate"><h2 className='mb-2 fon-semibold text-4xl pb-3'>Marketing Data Scientist - <span className='text-2xl text-white'>Excelerate</span></h2></a>
+                            <a href="https://github.com/JaySinghvi/Data-Analyst-Internship-Excelerate"><h2 className='mb-2 fon-semibold text-4xl pb-3'>Data Science Intern- <span className='text-2xl text-white'>Excelerate</span></h2></a>
                         </motion.button>
                         <ul className='mb-3 text-2xl list-disc pl-5 lg:justify-center '>
-                            <li className='mb-2'>Analyzed <b>CSV-based</b> campaign data across <b>7+</b> geographies to identify underperforming ads and reduce marketing costs</li>
-                            <li className='mb-2'>Built <b>ML-driven forecasting models</b> and <b>Power BI</b> dashboards to compare campaign efficiency and reduce campaign costs</li>
-                            <li className='mb-2'>Recommended discontinuing least effective campaigns based on predictive insights, driving a <b>33%</b> increase in user engagement and <b>$57K+</b> in quarterly savings, while boosting ROI and optimizing ad spend</li>
-                        
+                            <li className='mb-2'>Analyzed marketing performance data <b>across 7+ different regions</b> to find underperforming campaigns, reduce excess ad spend, and identify optimization strategies, driving improvements in conversion rates and campaign success across diverse audience segments</li>
+                            <li className='mb-2'>Developed forecasting models and interactive Power BI dashboards for evaluating cross-regional campaign efficiency, resulting in a <b>33% boost in user engagement</b> and <b>$57K+ in quarterly savings</b> through predictive analytics and targeted ad budget reallocation</li>
                         </ul>
                         <div className='flex flex-wrap'>
                             <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Marketing Data Analysis</span>

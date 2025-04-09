@@ -30,7 +30,7 @@ export const App = () => {
         <div className='container mx-auto px-8'>
           <Navbar />
           <Routes>
-            <Route path="/" element={<><Hero /><About /><Technologies /><Publication /><Experience /><Projects /><Contact /></>} />
+            <Route path="/" element={<><Hero /><About /><Technologies /><Experience /><Publication /><Projects /><Contact /></>} />
             <Route path="/finance" element={<Finance />} />
             <Route path='/entertainment' element={<Entertainment />} />
             <Route path="/aviation" element={<Aviation />} />

@@ -48,14 +48,13 @@ const Experience = () => {
                         <ul className='mb-3 text-2xl list-disc pl-5 lg:justify-center '>
                             <li className='mb-2'>Implemented a sentiment analysis pipeline to uncover users’ emotional patterns from their interactions, resulting in smarter content decisions and driving a <b>200% engagement increase</b> across high-performing video campaigns by aligning content with user behavior</li>
                             <li className='mb-2'>Designed automated dashboards by integrating Tableau, SQL workflows, and different analytics tools to enable the monitoring of user behavior trends, resulting in the <b>onboarding of 500+ new users</b> through personalized recommendations and content distribution</li>
-                        <ul>
+                        </ul>
                         <div className='flex flex-wrap'>
                             <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Sentiment Analysis & NLP</span>
                             <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>User Behavior Analytics</span>
                             <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Personalized Recommendation Systems</span>
                             <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Content Optimization</span>
                         </div>            
-
                     </motion.div>
                 </div>
             </div>

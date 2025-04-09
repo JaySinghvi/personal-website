@@ -12,7 +12,6 @@ import { SiPytorch } from "react-icons/si";
 import { SiScikitlearn } from "react-icons/si";
 import { SiStreamlit } from "react-icons/si";
 import { IoLogoVercel } from "react-icons/io5";
-import { FaReact } from "react-icons/fa";
 
 const iconVariants = (duration) => ({
     initial: {y: -10},

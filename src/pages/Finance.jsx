@@ -18,13 +18,11 @@ const Finance = () => {
                 whileTap={{ scale: 0.9 }} 
                 transition={{ type: "spring", stiffness: 400, damping: 17, duration: 1.5 }} 
                 className=" border-pink-500 bg-gradient-to-r from-pink-400 via-slate-200 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">
-                <a href="https://github.com/JaySinghvi/Loan-Default-Prediction-Risk-Analysis"><h6 className='mb-2 fon-semibold text-3xl pb-3'><b>Credit Risk Analysis using Machine Learning in R</b></h6></a>
+                <a href="https://github.com/JaySinghvi/Loan-Default-Prediction-Risk-Analysis"><h6 className='mb-2 fon-semibold text-3xl pb-3'><b>Financial Default Prediction System</b></h6></a>
               </motion.button>
               <ul className='list-disc pl-5 lg:justify-center text-2xl'>
-                <li className='mb-2'>Developed a credit risk prediction model in <b>R</b> using a dataset with <b>25,701</b> observations to analyze loan default probabilities</li>
-                <li className='mb-2'>Cleaned data, removed outliers, selected features, and built logistic regression models with <b>stepwise regression</b> and <b>random forest</b> for <b>KPI</b> ranking.</li>
-                <li className='mb-2'>Identified loan amount, interest rate, home ownership, and credit history length as top default predictors, achieving <b>84.92%</b> accuracy and enhancing lender risk assessment</li>
-                <li className='mb-2'>Discovered weak predictive power of prior defaults <b>(p-value {">"} 0.8)</b>, challenging traditional risk models and providing data-driven insights for creditor decision-making.</li>
+                <li className='mb-2'>Created a credit risk prediction system to estimate loan default probabilities from a <b>dataset of 25,000+ entries</b>, applying logistic regression and random forest algorithms to uncover key financial risk factors and patterns, across a wide range of borrower profiles</li>
+                <li className='mb-2'>Performed data preprocessing including outlier detection, null handling, and KPI-based feature selection, identifying top predictors such as loan amount, interest rate, and credit history length, and <b>achieved 84.9% accuracy</b> to support smarter lending strategies</li>
               </ul>
               <div className='flex flex-wrap justify-center'>
                 <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>R</span>

@@ -18,18 +18,18 @@ const Finance = () => {
                 whileTap={{ scale: 0.9 }} 
                 transition={{ type: "spring", stiffness: 400, damping: 17, duration: 1.5 }} 
                 className=" border-pink-500 bg-gradient-to-r from-pink-400 via-slate-200 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">
-                <a href="https://github.com/JaySinghvi/Loan-Default-Prediction-Risk-Analysis"><h6 className='mb-2 fon-semibold text-3xl pb-3'><b>Financial Default Prediction System</b></h6></a>
+                <a href="https://jsinghvi.shinyapps.io/lendguard/"><h6 className='mb-2 fon-semibold text-3xl pb-3'><b>Financial Default Prediction System</b></h6></a>
               </motion.button>
               <ul className='list-disc pl-5 lg:justify-center text-2xl'>
-                <li className='mb-2'>Created a credit risk prediction system to estimate loan default probabilities from a <b>dataset of 25,000+ entries</b>, applying logistic regression and random forest algorithms to uncover key financial risk factors and patterns, across a wide range of borrower profiles</li>
-                <li className='mb-2'>Performed data preprocessing including outlier detection, null handling, and KPI-based feature selection, identifying top predictors such as loan amount, interest rate, and credit history length, and <b>achieved 84.9% accuracy</b> to support smarter lending strategies</li>
+                <li className='mb-2'>Developed a credit-default risk model on 25,000+ loans using XGBoost with cost-based threshold tuning and class-imbalance handling, achieving 0.905 AUC and 82% recall (defaulter detection) while holding accuracy above 80%.</li>
+                <li className='mb-2'>Deployed an end-to-end Shiny app pairing the model with a Claude API layer that turns per-applicant SHAP values into plain-English, compliance-aligned decision notices, owning the full pipeline from data cleaning to a live, hosted tool.</li>
               </ul>
               <div className='flex flex-wrap justify-center'>
                 <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>R</span>
-                <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Logistic Regression</span>
-                <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Random Forest</span>
+                <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>XGBoost</span>
+                <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>LLM Integration (Claude API)</span>
+                <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Model Deployment</span>
                 <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Financial Data Analysis</span>
-                <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Risk Management</span>
               </div>            
             </motion.div>
           </div>

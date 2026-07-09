@@ -18,7 +18,7 @@ const Finance = () => {
                 whileTap={{ scale: 0.9 }} 
                 transition={{ type: "spring", stiffness: 400, damping: 17, duration: 1.5 }} 
                 className=" border-pink-500 bg-gradient-to-r from-pink-400 via-slate-200 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">
-                <a href="https://jsinghvi.shinyapps.io/lendguard/"><h6 className='mb-2 fon-semibold text-3xl pb-3'><b>Lendguard AI</b></h6></a>
+                <a href="https://jsinghvi.shinyapps.io/lendguard/"><h6 className='mb-2 fon-semibold text-3xl pb-3'><b>LendGuard AI</b></h6></a>
               </motion.button>
               <ul className='list-disc pl-5 lg:justify-center text-2xl'>
                 <li className='mb-2'>Developed a credit-default risk model on 25,000+ loans using XGBoost with cost-based threshold tuning and class-imbalance handling, achieving 0.905 AUC and 82% recall (defaulter detection) while holding accuracy above 80%.</li>

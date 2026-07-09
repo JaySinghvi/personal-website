@@ -48,28 +48,28 @@ const Technologies = () => {
                 <SiPytorch className='text-7xl text-red-400' />
             </motion.div>
              <motion.div variants={iconVariants(2.5)} initial="initial" animate="animate" className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <SiScikitlearn className='text-7xl text-red-400' />
+                <SiScikitlearn className='text-7xl text-orange-400' />
             </motion.div>
             <motion.div variants={iconVariants(2.5)} initial="initial" animate="animate" className='rounded-2xl border-4 border-neutral-800 p-4'>
                 <SiOpencv className='text-7xl text-red-400' />
             </motion.div>
             <motion.div variants={iconVariants(4)} initial="initial" animate="animate" className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <SiOpenai className='text-7xl text-gray-400' />
+                <SiOpenai className='text-7xl text-emerald-500' />
             </motion.div>
             <motion.div variants={iconVariants(4)} initial="initial" animate="animate" className='rounded-2xl border-4 border-neutral-800 p-4'>
                 <BsClaude className='text-7xl text-gray-400' />
             </motion.div>
             <motion.div variants={iconVariants(4)} initial="initial" animate="animate" className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <SiPowerbi className='text-7xl text-gray-400' />
+                <SiPowerbi className='text-7xl text-yellow-400' />
             </motion.div>
             <motion.div variants={iconVariants(4)} initial="initial" animate="animate" className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <IoLogoTableau className='text-7xl text-gray-400' />
+                <IoLogoTableau className='text-7xl text-blue-500' />
             </motion.div>
             <motion.div variants={iconVariants(2.5)} initial="initial" animate="animate" className='rounded-2xl border-4 border-neutral-800 p-4'>
                 <SiStreamlit className='text-7xl text-red-400' />
             </motion.div>
              <motion.div variants={iconVariants(2.5)} initial="initial" animate="animate" className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <IoLogoVercel className='text-7xl text-red-400' />
+                <IoLogoVercel className='text-7xl text-white' />
             </motion.div>
             
         </motion.div>

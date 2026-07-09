@@ -28,7 +28,7 @@ const Hero = () => {
           <li>🔭 I build end-to-end AI and ML systems from prototype to production.</li>
           <li>🤖 Data Scientist / ML Engineer / AI Engineer</li>
           <li>🛠️ Stack: Python, R, SQL, PyTorch, XGBoost, LLMs, RAG, LangChain, LangGraph, Hugging Face</li>
-          <li>💼 Recent work: an autonomous voice-calling agent for QA-ing AI phone systems, three XGBoost disaster-forecasting models for climate-tech, and an LLM-integrated credit-default risk model with compliance-aligned decision notices</li>
+          <li>💼 Recent work: an autonomous voice-calling agent for QA-ing AI phone systems, three XGBoost disaster-forecasting models for climate-tech, and an LLM-integrated credit-default risk model with compliance-aligned decision notices, and many more!</li>
           <li>🎓 BS Informatics, Data Science from UMass Amherst (GPA 3.8)</li>
           <li>📄 Published research on privacy-preserving ML for healthcare (Springer, ATIS 2021)</li>
           <li>📬 Open to full-time DS, ML, and AI Engineer roles at startups and growing companies so let's connect</li>

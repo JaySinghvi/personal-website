@@ -9,21 +9,21 @@ const AlignTimeline = ({ align }) => (
   <Timeline align={align} style={{width: '1400px', position: 'relative'}}>
     <Timeline.Item>
         <div className='border rounded-2xl border-purple-900 w-full pl-4 pb-3'>
-            <p className='pt-4'>🎓 Present</p>
+            <p className='pt-4'>🎓 Graduated in May 2026</p>
           <ul>
             <li><b>B.S in Data Science</b></li>
             <li><i>University of Massachusetts Amherst</i></li>
-            <li> → Focused on machine learning, data science, and applied AI with a GPA of 3.95/4.00</li>
+            <li>Focused on machine learning, data science, and applied AI with a CGPA of 3.8/4.00</li>
           </ul>
             
         </div>
     </Timeline.Item>
     <Timeline.Item>
         <div className='border pr-4 rounded-2xl border-purple-900 pb-3 w-full'>
-            <p>🏫 Aug 2019 – Jul 2021</p>
+            <p>🏫 Aug 2019 – Jul 2022</p>
           <ul>
             <li><b>International Baccalaureate Diploma Programme (IBDP)</b></li>
-            <li> → Completed the IB Diploma with a focus on Science and Mathematics</li>
+            <li>Completed the IB Diploma with a focus on Science and Mathematics</li>
           </ul>
         </div>
     </Timeline.Item>
@@ -32,7 +32,7 @@ const AlignTimeline = ({ align }) => (
             <p>📘 Till 2018</p>
           <ul>
             <li><b>International General Certificate of Secondary Education (IGCSE)</b></li>
-            <li> → Studied the Cambridge curriculum from Grade 1 to 10, developing a strong foundation in logic, analytical thinking, and communication</li>
+            <li>Studied the Cambridge curriculum from Grade 1 to 10, developing a strong foundation in logic, analytical thinking, and communication</li>
           </ul>
         </div>
     </Timeline.Item>

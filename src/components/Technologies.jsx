@@ -12,8 +12,7 @@ import { SiScikitlearn } from "react-icons/si";
 import { SiStreamlit } from "react-icons/si";
 import { IoLogoVercel } from "react-icons/io5";
 import { AiOutlineOpenAI } from "react-icons/ai";
-import { SiClaude } from "react-icons/si";
-
+import { BsClaude } from "react-icons/bs";
 
 const iconVariants = (duration) => ({
     initial: {y: -10},
@@ -58,7 +57,7 @@ const Technologies = () => {
                 <AiOutlineOpenAI className='text-7xl text-gray-400' />
             </motion.div>
             <motion.div variants={iconVariants(4)} initial="initial" animate="animate" className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <SiClaude className='text-7xl text-gray-400' />
+                <BsClaude className='text-7xl text-gray-400' />
             </motion.div>
             <motion.div variants={iconVariants(4)} initial="initial" animate="animate" className='rounded-2xl border-4 border-neutral-800 p-4'>
                 <SiPowerbi className='text-7xl text-gray-400' />

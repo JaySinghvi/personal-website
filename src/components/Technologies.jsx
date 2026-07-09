@@ -11,7 +11,7 @@ import { SiPytorch } from "react-icons/si";
 import { SiScikitlearn } from "react-icons/si";
 import { SiStreamlit } from "react-icons/si";
 import { IoLogoVercel } from "react-icons/io5";
-import { AiOutlineOpenAI } from "react-icons/ai";
+import { SiOpenai } from "react-icons/si";
 import { BsClaude } from "react-icons/bs";
 
 const iconVariants = (duration) => ({
@@ -54,7 +54,7 @@ const Technologies = () => {
                 <SiOpencv className='text-7xl text-red-400' />
             </motion.div>
             <motion.div variants={iconVariants(4)} initial="initial" animate="animate" className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <AiOutlineOpenAI className='text-7xl text-gray-400' />
+                <SiOpenai className='text-7xl text-gray-400' />
             </motion.div>
             <motion.div variants={iconVariants(4)} initial="initial" animate="animate" className='rounded-2xl border-4 border-neutral-800 p-4'>
                 <BsClaude className='text-7xl text-gray-400' />

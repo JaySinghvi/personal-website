@@ -19,14 +19,14 @@ const Publication = () => {
                             <a href="https://link.springer.com/chapter/10.1007/978-981-99-2264-2_17"><h2 className='mb-2 fon-semibold text-4xl pb-3'>Cyber Security and Layering of Medical Data Using Machine Learning Algorithms</h2></a>
                         </motion.button>
                         <ul className='mb-3 text-2xl list-disc pl-5 lg:justify-center '>
-                            <li className='mb-2'>Published a research paper in <i>Applications and Techniques in Information Security</i>, presenting machine learning techniques for disease classification using sensitive medical data, highlighting the importance of secure data handling in healthcare systems</li>
-                            <li className='mb-2'>Implemented and evaluated models on patient datasets involving Hepatitis C and Diabetes, achieving <b>94.3% accuracy with Gradient Boosting Classifier</b>, demonstrating the role of machine learning in accelerating and improving clinical decision-making</li>                      
+                            <li className='mb-2'>Co-authored research on privacy-preserving ML for healthcare data, designing a data-layering architecture that keeps patient records on a secure remote server while ML models query only anonymized macro-level trends</li>
+                            <li className='mb-2'>Trained disease-prediction models on 10,000+ anonymized patient records to detect Hepatitis C and Diabetes trends, engineering discriminative features, and achieving 94.3% accuracy for early-stage clinical risk identification</li>                      
                         </ul>
                         <div className='flex flex-wrap'>
-                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Supervised Learning</span>
-                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Medical Data Analysis</span>
+                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>ML in Healthcare</span>
+                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Research</span>
+                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Medical Data Layering</span>
                             <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Model Evaluation</span>
-                            <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-2xl font-medium text-purple-500'>Machine Learning Research</span>
                         </div>            
 
                     </motion.div>
